@@ -1,0 +1,30 @@
+.search-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  .searchbtu{
+    background-color: #ffffff;
+    border: #ffffff;
+  }
+
+  @media screen and (max-width: 1024px) {
+    #search-popup {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: fixed;
+      top: 140px;
+      right: -300px;
+      width: 300px;
+      height: 100vh;
+      background-color: #ffffff;
+      padding: 40px 0 0 10px;
+      transition: 0.3s ease-in-out;
+    }}

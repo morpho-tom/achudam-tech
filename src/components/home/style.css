@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/onest/v2/gNMZW3F-SZuj7zOT0IfSjTS16cPh9R6ptRtN.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.home-section  {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.about-para-one {
+    width: 30%;
+    padding: 10px 0px 0px 90px;
+}
+.about-para-one h2,button {
+    inline-size: 50%;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(20, 109, 65);
+    
+}
+.about-para-one p{
+    font-size: larger;
+    color: rgb(20, 109, 65);
+    font-family: onest;
+    font-weight: 600;
+
+}
+.explore-button{
+    color: white;
+   background-color: rgb(20, 109, 65);
+}
+.about-para-one {
+    color: #146d41;
+    font-family: 'onest';
+    font-weight: 300;
+    font-size: larger;
+    inline-size: 35%;
+}
+
+
+
+.about-para-two {
+    width: 40%;
+    inline-size: none;
+    color: rgb(30, 146, 88);
+    font-family: 'onest';
+    font-weight: 600;
+    font-size: larger;
+    inline-size: 40%;
+    padding: 10px 0px 0px 90px;
+}
+.power-plant-pic{
+    
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.card-title1 span{
+    font-size: 70px;
+    color: rgb(30, 146, 88);
+}
+.card-content{
+    font-size: 30px;
+    width: 50%;
+    background-color: white ;
+    color: rgb(30, 146, 88);
+}
+.card-content1{
+    font-size: 30px;
+    width: 50%;
+    background-color:rgb(30, 146, 88) ;
+    color: white ;
+}
+/* button - heading  */
+.product-head{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(30, 146, 88);
+
+}
+.product-head1 {
+    color: rgb(30, 146, 88);
+}
+/* body1 buttons   */
+.product-topic {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #302d2a;
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s ease;
+    width: 200px;
+  }
+  
+  .product-topic::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: rgb(30, 146, 88);
+    transition: .5s ease;
+  }
+  
+  .product-topic:hover {
+    color: white;
+    transition-delay: .5s;
+  }
+  
+  .product-topic:hover::before {
+    width: 100%;
+  }
+  
+  .product-topic::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: rgb(30, 146, 88);
+    transition: .4s ease;
+    z-index: -1;
+  }
+  
+  .product-topic:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
