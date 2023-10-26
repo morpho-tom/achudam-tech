@@ -3,7 +3,8 @@ import "./style.css"
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <>  
+      <footer className="footer">
       <div className="footer-container">
         <div className="footer-column">
           <h3>About</h3>
@@ -36,6 +37,7 @@ const Footer = () => {
         Copyright by Achudamtech. All rights reserved.
       </div>
     </footer>
+        </>
   );
 };
 

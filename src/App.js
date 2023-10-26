@@ -1,23 +1,24 @@
 import React from 'react';
-import { BrowserRouter as Router} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/navbar/index';
-import Carousel from './components/image-Carousel/index';
 import Home from './components/home/index';
 import Footer from './components/footer';
-
-
-
-
-
+import AboutUs from './components/aboutus';
+import Product from './components/products';
 
 function App() {
 
   return (
     <Router >
       <Navbar />
-      <Carousel /><br/><br/><br/><br/><br/><br/>
-      <Home/>
-      <Footer/>
+      <div>
+      <Routes>
+          <Route  path="/" element={<Home />} />
+          <Route  path="/Aboutus" element={<AboutUs/>} />
+          <Route  path="/Product" element={<Product/>} />
+      </Routes>
+      </div>
+      <Footer />
     </Router>
   );
 }

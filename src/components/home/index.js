@@ -7,10 +7,13 @@ import powerplantimg from "./power-plant.jpg";
 import './style.css'
 import Card from 'react-bootstrap/Card';
 import Body1 from "./body1";
+import Carousel from '../image-Carousel/index';
+
 
 const Home = () => {
     return (
         <>
+            <Carousel /><br /><br /><br /><br /><br /><br />
             <div className="home-section">
                 <br />
                 <Row>
@@ -55,8 +58,8 @@ const Home = () => {
                         <Card.Text className="card-content1"><p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p></Card.Text>
                     </Card.ImgOverlay>
                 </Card>
-            </div><br/><br/><br/><br/><br/><br/>
-        <Body1/>
+            </div><br /><br /><br /><br /><br /><br />
+            <Body1 />
         </>
     )
 }

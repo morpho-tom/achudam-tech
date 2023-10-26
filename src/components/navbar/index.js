@@ -1,8 +1,11 @@
 // import React, { useState } from 'react'; 
 import { Component } from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 import logo from '../../Assets/Amtlogo.png';
 import SearchPopup from "./searchpopup"
+// import Home from "../home";
+// import AboutUs from "../aboutus";
 
 
 
@@ -12,7 +15,7 @@ class Navbar extends Component {
     handleClick = () => {
         this.setState({ clicked: !this.state.clicked });
     };
-    
+
     render() {
         return (
             <div>
@@ -25,23 +28,24 @@ class Navbar extends Component {
                                 className={this.state.clicked ? "#navbar active" : "#Navbar"}
                             >
                                 <li>
-                                    <a href= "index.html" >
+                                    <Link className="navbar-item" activeClassName="is-active" to="/">
                                         Home
-                                    </a>
+                                    </Link>
+
                                 </li>
                                 <li>
-                                    <a href="index.html">Products</a>
+                                <Link to="Product">Products</Link>
                                 </li>
                                 <li>
-                                    <a href="index.html">Activity</a>
+                                <Link to="index.html">Activity</Link>
                                 </li>
                                 <li>
-                                    <a href="index.html">Contact us</a>
+                                    <Link to="index.html"> Contact us </Link>
                                 </li>
                                 <li>
-                                    <a href="index.html">About us</a>
+                                    <Link to="/Aboutus"> About us</Link>
                                 </li>
-                                <SearchPopup/>
+                                <SearchPopup />
                                 {/* <input className= "fa-solid fa-magnifying-glass" /> */}
                             </ul>
                         </div>
