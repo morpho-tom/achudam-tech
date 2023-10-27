@@ -40,7 +40,7 @@ class Navbar extends Component {
                                 <Link to="index.html">Activity</Link>
                                 </li>
                                 <li>
-                                    <Link to="index.html"> Contact us </Link>
+                                    <Link to="/ContactUs"> Contact us </Link>
                                 </li>
                                 <li>
                                     <Link to="/Aboutus"> About us</Link>

@@ -1,28 +1,32 @@
 import React from "react";
 import "./style.css"
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Collapse from 'react-bootstrap/Collapse';
 
 
 
 
 const Product = () => {
+    const [open, setOpen] = useState(false);
     return (
         <>
             <div>
                 <img src="" alt="" />
             </div>
             <div>
-                <div class="card">
-                    <div class="card-inner">
-                        <div class="card-front">
-                            <img src="" alt="" />
-                        </div>
-                        <div class="card-back">
-                            <p>Back Side</p>
-                            
-                        </div>
+                <Button
+                    onClick={() => setOpen(!open)}
+                    aria-controls="example-collapse-text"
+                    aria-expanded={open}
+                >
+                    click
+                </Button>
+                <Collapse in={open}>
+                    <div id="example-collapse-text">
+                        kvaxkvadkbhdfsnio gfafgigaohsghgoev u gyggy9eagheayg yagang
                     </div>
-                </div>
-
+                </Collapse>
             </div>
         </>
     )
