@@ -4,10 +4,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import powerplantimg from "./power-plant.jpg";
-import './style.css'
 import Card from 'react-bootstrap/Card';
 import Body1 from "./body1";
 import Carousel from '../image-Carousel/index';
+import animated from './animated1.gif'
 
 
 const Home = () => {
@@ -25,7 +25,8 @@ const Home = () => {
                         </p> <button className="explore-button">Explore</button>
                     </Col>
                     <Col md={4} className="about-para-two">
-                        <p>Various educators teach rules governing the length of paragraphs.</p>
+                    
+                        <p><img src={animated} alt="animated"/>Various educators teach rules governing the length of paragraphs.</p>
                     </Col>
                     <Col md={4} className="about-para-two">
                         <p>Various educators teach rules governing the length of paragraphs.</p>

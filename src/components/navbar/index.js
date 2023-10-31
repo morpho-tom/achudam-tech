@@ -1,11 +1,8 @@
-// import React, { useState } from 'react'; 
 import { Component } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 import logo from '../../Assets/Amtlogo.png';
 import SearchPopup from "./searchpopup"
-// import Home from "../home";
-// import AboutUs from "../aboutus";
 
 
 
