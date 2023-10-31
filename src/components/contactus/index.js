@@ -2,7 +2,7 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+import ContactUS from './contactus.jpg'
 import "./style.css"
 
 
@@ -10,7 +10,7 @@ const ContactUs = () => {
     return (
         <>
             <div>
-                <img src=" " alt="" />
+                <img src={ContactUS} alt="" />
             </div>
             <br /><br /><br />
             <div className="contactus-container">
