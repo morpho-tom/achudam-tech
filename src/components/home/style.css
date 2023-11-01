@@ -43,13 +43,12 @@
 }
 .about-para-two {
     width: 40%;
-    /* display: flex; */
     inline-size: none;
     color: rgb(30, 146, 88);
     font-family: 'onest';
     font-weight: 600;
     font-size: larger;
-    inline-size: 40%;
+    inline-size: 50%;
     padding: 10px 0px 0px 90px;
 }
 .about-para-gif{
@@ -89,7 +88,7 @@
     color: rgb(30, 146, 88);
 }
 /* body1 buttons   */
-.product-topic {
+.product-button-topic {
     font-size: 17px;
     background: transparent;
     border: none;
@@ -101,7 +100,7 @@
     width: 200px;
   }
   
-  .product-topic::before {
+  .product-button-topic::before {
     content: '';
     position: absolute;
     left: 0;
@@ -112,16 +111,16 @@
     transition: .5s ease;
   }
   
-  .product-topic:hover {
+  .product-button-topic:hover {
     color: white;
     transition-delay: .5s;
   }
   
-  .product-topic:hover::before {
+  .product-button-topic:hover::before {
     width: 100%;
   }
   
-  .product-topic::after {
+  .product-button-topic::after {
     content: '';
     position: absolute;
     left: 0;
@@ -133,11 +132,14 @@
     z-index: -1;
   }
   
-  .product-topic:hover::after {
+  .product-button-topic:hover::after {
     height: 100%;
     transition-delay: 0.4s;
     color: aliceblue;
   }
+
+
+
 .image-responsive{
     width: 100%;
     height: auto;
