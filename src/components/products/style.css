@@ -1,3 +1,5 @@
-/* .products-page-tab-head Tab{
-    
-} */
+.products-page-tab-head{
+    letter-spacing: 1px;
+    padding: 40px;
+    margin: 50px;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css"
+import ProductImage from "./productimage.jpg";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
@@ -12,7 +13,7 @@ const Product = () => {
     return (
         <>
             <div>
-                <img src="" alt="" />
+                <img src={ProductImage} alt="productimage" />
             </div>
 
             <div className="products-page-tab-head">
@@ -26,19 +27,19 @@ const Product = () => {
                     
                         <Tab eventKey="home" title="Proton Exchange Membrane ( PEM ) Fuel Cell">
                             <div >
-                                <ol>
+                                <ul>
                                     <li>Fuel cell Stacks ( Open Cathode, Humidified)</li>
                                     <li>Fuel Cell Test Station ( Open cathode stack, Humidified Stack)</li>
                                     <li>Open Cathode PEM Fuel cell based Hydrogen Management System</li>
                                     <li>Fuel Cell components</li>
                                     <ul>
-                                        <li> 7.1 Membrane Electrode assembly (MEA)</li>
-                                        <li>7.2 Fuel Cell Catalyst</li>
-                                        <li>7.3 Monopolar & Bipolar Plates</li>
-                                        <li>7.4 Component Fuel Cell voltage/ Temperature monitoring system for Fuel Cell stacks</li>
-                                        <li> 7.5 Programmable Logic Controller (PLC) based control instrumentation for PEM Fuel Cells</li>
+                                        <li>  Membrane Electrode assembly (MEA)</li>
+                                        <li>  Fuel Cell Catalyst</li>
+                                        <li>  Monopolar & Bipolar Plates</li>
+                                        <li>  Component Fuel Cell voltage/ Temperature monitoring system for Fuel Cell stacks</li>
+                                        <li>  Programmable Logic Controller (PLC) based control instrumentation for PEM Fuel Cells</li>
                                     </ul>
-                                </ol>
+                                </ul>
                             </div>
                         </Tab>
                         <Tab eventKey="profile" title="Bioreactors">
