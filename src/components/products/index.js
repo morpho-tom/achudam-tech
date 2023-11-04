@@ -44,7 +44,7 @@ const Product = () => {
                         </Tab>
                         <Tab eventKey="profile" title="Bioreactors">
                             <div >
-                                <ol>
+                                <ul>
                                     <li>Fully Automated Bioreactors for Research application</li>
                                     <li> Components for Bioreactors</li>
                                     <ul>
@@ -57,7 +57,7 @@ const Product = () => {
                                         <li>Sludge temperature sensors</li>
 
                                     </ul>
-                                </ol>
+                                </ul>
                             </div>
                         </Tab>
                         <Tab eventKey="contact" title="Sensors" >
