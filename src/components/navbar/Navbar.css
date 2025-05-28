@@ -1,0 +1,104 @@
+  /* Navbar container */
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    background-color: white;
+  }
+  /* Desktop Navbar */
+  .desktop-nav {
+    display: block;
+    padding: 0 24px;
+  }
+
+  /* Mobile Navbar */
+  .mobile-nav {
+    display: none;
+    padding: 0 16px;
+  }
+
+  /* Responsive behavior */
+  @media (max-width: 992px) {
+    .desktop-nav {
+      display: none;
+    }
+
+    .mobile-nav {
+      display: block;
+    }
+
+
+  }
+
+  /* Menu item active state */
+  /* .ant-menu-item-selected {
+    font-size: larger;
+    font-weight: bolder;
+  } */
+
+  /* Logo styles */
+  .ant-image {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+  }
+
+  /* Theme switch styles */
+  .ant-switch {
+    background-color: #8c8c8c;
+  }
+
+  .ant-switch-checked {
+    background-color: #45719a;
+  }
+
+  /* Drawer menu items */
+  .ant-drawer-body .ant-menu {
+    border-right: none;
+  }
+
+  /* Base menu item styles */
+  .ant-menu-item {
+    color: #1D9142 !important;
+    font-weight: 900 !important;
+    text-decoration: none !important;
+  }
+
+  /* Remove underline on hover */
+  .ant-menu-item a:hover {
+    text-decoration: none !important;
+    
+    /* Slightly darker on hover if you want */
+  }
+
+  /* Selected item — remove border and underline, keep bold + color */
+  .ant-menu-item-selected {
+    background-color: #155f2d !important;
+    border-bottom: none !important;
+    border-radius: 40px !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    font-weight: 900 !important;
+    border-bottom-color: #fff !important;
+  }
+
+  .ant-menu-item-selected::after {
+    border-bottom: none !important;
+    border-bottom-color: #fff;
+    color: #fff
+  }
+
+  .ant-menu-item::after {
+    border-bottom: none !important;
+    border-bottom-color: #fff
+  }
+
+
+  .ant-menu-item-selected a {
+    text-decoration: none !important;
+    color: #ffffff !important;
+    border-bottom-color: #fff
+  }
