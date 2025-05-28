@@ -1,5 +1,5 @@
 import React from "react";
-import HomeComponent from "../Components/Home/index.jsx";
+import HomeComponent from "../components/Home/index.jsx";
 
 const Home = () => {
   return (
