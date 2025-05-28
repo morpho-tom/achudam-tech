@@ -7,7 +7,7 @@ import AboutUsPage from "./Pages/AboutUs.jsx";
 import ContactPage from "./Pages/Contact.jsx";
 import ProductPage from "./Pages/Product.jsx";
 import PageNotFound from "./Pages/PageNotFound.jsx";
-import Navbar from "./Components/Navbar/Navbar.jsx";
+import Navbar from "./Components/navbar/Navbar.jsx";
 import Footer from "./Components/footer/index.jsx";
 import Loader from "./Components/Loader/Loader.jsx";
 
