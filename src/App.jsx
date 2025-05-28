@@ -9,7 +9,7 @@ import ProductPage from "./Pages/Product.jsx";
 import PageNotFound from "./Pages/PageNotFound.jsx";
 import Navbar from "./components/navbar/Navbar.jsx";
 import Footer from "./components/footer/index.jsx";
-import Loader from "./components/Loader/Loader.jsx";
+import Loader from "./components/loader/Loader.jsx";
 
 const { Content } = Layout;
 const App = () => {
