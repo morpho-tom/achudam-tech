@@ -7,9 +7,9 @@ import AboutUsPage from "./Pages/AboutUs.jsx";
 import ContactPage from "./Pages/Contact.jsx";
 import ProductPage from "./Pages/Product.jsx";
 import PageNotFound from "./Pages/PageNotFound.jsx";
-import Navbar from "./Components/navbar/Navbar.jsx";
-import Footer from "./Components/footer/index.jsx";
-import Loader from "./Components/Loader/Loader.jsx";
+import Navbar from "./components/navbar/Navbar.jsx";
+import Footer from "./components/footer/index.jsx";
+import Loader from "./components/Loader/Loader.jsx";
 
 const { Content } = Layout;
 const App = () => {
